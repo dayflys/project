@@ -1,43 +1,19 @@
-*{
-    margin : 0;
-    padding : 0;
-}
-
-#위쪽{
-display: flex;
-justify-content: center;
-height: 60px;
-}
-
-#위쪽자리 {
-    width: 1024px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#위쪽자리 img{
+  #banner {
     height: 60px;
-    width: 120px;
-}
-
-#banner {
-    height: 100px;
-    background-color: #F9D4E4;
+    background-color: white;
+    border-bottom: 0.1px solid;
 }
 
 #banner img{
-    height: 100%;
-    width: 20%;
+    height: 60px;
+    width: 120px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
 }
 
 #중간쪽{
-    height: 100vh;
+    min-height: 100%;
     width: 1024px;
     margin: 0 auto;
     padding-bottom: 24px;
@@ -47,10 +23,11 @@ height: 60px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
+    margin-left: 10px;
 }
 .중간쪽사진넣을곳 {
-    width: 500px;
-    height: 600px;
+    width: 492px;
+    height: 580px;
     margin-right: 10px;
     margin-bottom: 10px;
     background-color: #F9D4E4;
@@ -61,3 +38,4 @@ height: 60px;
     height: 100%;
     width: 100%;
 }
+

@@ -20,11 +20,6 @@ function MainPageComponent(){
 
 return(
 <div>
-    <div id="위쪽">
-        <div id="위쪽자리">
-            <img src="images/logo.png" alt="로고사진" title="로고사진" />
-        </div>
-    </div>
     <div>
         <div id="banner">
           <img src="images/logo.png" alt="배너사진대신넣어봄" title="배너사진자리에요" />

@@ -4,3 +4,39 @@ body,
 #root > div {
   height: 100%;
 }
+
+*{
+  margin : 0;
+  padding : 0;
+}
+
+#위쪽{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  border-bottom: 0.1px solid black;
+  }
+  
+  #위쪽자리 {
+      width: 1024px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #위쪽자리 img{
+      height: 60px;
+      width: 120px;
+  }
+  
+  #맨아래{
+    height: 300px;
+    background-color: rgb(230, 230, 230);
+}
+
+.글씨{
+  font-size: large;
+  text-align: center;
+}
