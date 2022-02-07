@@ -2,6 +2,8 @@ import "./index.css";
 import {useParams} from 'react-router-dom';
 import axios from "axios";
 import { useEffect,useState } from "react";
+import { Button } from "antd";
+import {DownOutlined} from "@ant-design/icons";
 
 function Productpage(){
     const { id } = useParams();
@@ -22,15 +24,20 @@ function Productpage(){
     }
     return(
         <div>
-            <div id="이미지박스">
-                <img src={"/"+product.imageUrl} />
-            </div>
-            <div id="프로필박스">
-                <div>
-                    <div className="물품정보">김시연이 만든 브랜드</div>
-                    <div className="날짜정보">2022년 2월 5일</div>
-                    <div className="정보란">아직 정보가 없어요</div>
-                    <div className="가격정보">3000원</div>
+            <div id="sub중간">
+                <div id="이미지박스">
+                    <img src={"/"+product.imageUrl} />
+                </div>
+                <div id="상세정보란">
+                    <Button type="dashed" block>상세정보</Button>
+                </div>    
+                <div id="프로필박스">
+                    <div>
+                        <div className="물품정보">김시연이 만든 브랜드</div>
+                        <div className="날짜정보">2022년 2월 5일</div>
+                        <div className="정보란">아직 정보가 없어요</div>
+                        <div className="가격정보">3000원</div>
+                    </div>               
                 </div>
             </div>
         </div>
