@@ -27,16 +27,16 @@ return(
     </div>
     <div id="중간쪽">
         <div className="중간쪽사진">
-                {products&&products.map(function(product,index){
+              {products&&products.map(function(product,index){
                     return (
-                    <Link to={`/products/${product.id}`}>    
-                        <div className="중간쪽사진넣을곳">
-                            <img src={product.imageUrl} alt="물건사진" title="물건사진자리에요" />
-                        </div>
-                    </Link>
-                    );
-                })}
-        </div>    
+                  <Link to={`/products/${product.id}`}>    
+                      <div className="중간쪽사진넣을곳">
+                          <img src={product.imageUrl} alt="물건사진" title="물건사진자리에요" />
+                      </div>
+                  </Link>
+                  );
+              })}
+      </div>      
     </div>
 </div>
 );
